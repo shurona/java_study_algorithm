@@ -89,7 +89,7 @@ public class ParkWalk {
                     }
                     break;
                 default:
-                    throw new Error("yahoo");
+                    //
             }
 
             if(switchLocation) {

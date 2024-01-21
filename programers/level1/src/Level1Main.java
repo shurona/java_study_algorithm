@@ -6,11 +6,9 @@ public class Level1Main {
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!\n");
 
+        NotCompleteMarathon tp = new NotCompleteMarathon();
 
-        MemoryScore ms = new MemoryScore();
-
-
-        ms.memoryStart();
+        tp.findIt();
     }
 }
 

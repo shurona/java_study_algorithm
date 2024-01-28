@@ -6,9 +6,9 @@ public class Level1Main {
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!\n");
 
-        NotCompleteMarathon tp = new NotCompleteMarathon();
+        Phonekemon tp = new Phonekemon();
 
-        tp.findIt();
+        tp.ChooseCharacter();
     }
 }
 

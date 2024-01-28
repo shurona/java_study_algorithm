@@ -1,3 +1,6 @@
+import Hash.ChooseClothes;
+import Hash.PhoneBookList;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -10,9 +13,9 @@ public class Main {
         System.out.printf("Hello and welcome!\n");
 
 
-        Mergesort tp = new Mergesort();
+        ChooseClothes tp = new ChooseClothes();
 
-        tp.sort();
+        tp.anotherSolution();
     }
 }
 

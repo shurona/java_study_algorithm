@@ -1,5 +1,7 @@
 import Hash.ChooseClothes;
 import Hash.PhoneBookList;
+import stack.CorrectBracket;
+import stack.ProcessJob;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -13,9 +15,9 @@ public class Main {
         System.out.printf("Hello and welcome!\n");
 
 
-        ChooseClothes tp = new ChooseClothes();
+        ProcessJob tp = new ProcessJob();
 
-        tp.anotherSolution();
+        tp.solution();
     }
 }
 

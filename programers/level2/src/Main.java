@@ -1,7 +1,6 @@
 import Hash.ChooseClothes;
 import Hash.PhoneBookList;
-import stack.CorrectBracket;
-import stack.ProcessJob;
+import stack.*;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -12,10 +11,10 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!\n");
+        System.out.printf("Hello and welcome! Level2\n");
 
 
-        ProcessJob tp = new ProcessJob();
+        StockPrice tp = new StockPrice();
 
         tp.solution();
     }

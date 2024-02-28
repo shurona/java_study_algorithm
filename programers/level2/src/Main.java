@@ -1,5 +1,6 @@
 import Hash.ChooseClothes;
 import Hash.PhoneBookList;
+import heap.*;
 import stack.*;
 
 import java.util.Arrays;
@@ -11,12 +12,12 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome! Level2\n");
+        System.out.println("Hello and welcome! Level2\n");
 
 
-        StockPrice tp = new StockPrice();
+        ScovilleScale tp = new ScovilleScale();
 
-        tp.solution();
+        tp.anotherSolution();
     }
 }
 

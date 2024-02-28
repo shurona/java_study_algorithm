@@ -3,6 +3,7 @@ package stack;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class StockPrice {
     public void solution() {

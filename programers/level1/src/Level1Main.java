@@ -9,9 +9,9 @@ public class Level1Main {
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome Level1!\n");
 
-        DevelopSolution tp = new DevelopSolution();
+        DoubleCrypto tp = new DoubleCrypto();
 
-        tp.solution();
+        tp.anotherSolution();
     }
 }
 

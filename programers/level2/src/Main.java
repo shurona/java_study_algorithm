@@ -1,6 +1,8 @@
 import Hash.ChooseClothes;
 import Hash.PhoneBookList;
 import heap.*;
+import sort.HIndex;
+import sort.MaxNumber;
 import stack.*;
 
 import java.util.Arrays;
@@ -13,11 +15,10 @@ public class Main {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome! Level2\n");
+        HIndex tp = new HIndex();
 
-
-        ScovilleScale tp = new ScovilleScale();
-
-        tp.anotherSolution();
+//        tp.solution();
+        tp.anothersolution();
     }
 }
 

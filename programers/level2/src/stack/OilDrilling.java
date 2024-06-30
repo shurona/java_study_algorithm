@@ -1,4 +1,4 @@
-package problem;
+package stack;
 
 import java.util.HashSet;
 import java.util.Stack;

@@ -3,11 +3,9 @@ package test;
 import test.custom.MyTest;
 import test.domain.User;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 import java.lang.invoke.*;
+import java.util.stream.Collectors;
 
 public class TestMain {
     /**
@@ -56,11 +54,52 @@ public class TestMain {
         }
     }
 
+    public static void printToTwo(int num) {
+
+
+        StringBuilder sb = new StringBuilder();
+        while (num != 0) {
+            int now = (num % 2);
+            sb.append(now);
+            num /= 2;
+        }
+
+
+        System.out.println(sb.reverse().toString());
+
+    }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3};
 
-        MyTest a = new MyTest();
-        a.solution();
+        int a = 10;
+        a = (1 << 21) - 1;
+//        a |= (1 << 2);
+//        a &= ~(1 << 1);
 
+//        a &= ~(1 << 3);
+//
+//        int i = a & 1 << 3;
+//
+//
+//        System.out.println(i);
+//        printToTwo(i);
+//
+//        a = 1 << 3;
+//        System.out.println(a);
+//        printToTwo(16);
+//        printToTwo(8);
+//
+//        HashMap<Integer, Integer> aa = new HashMap<>();
+//
+//        aa.put(1, 1);
+
+
+
+        int[] tp = new int[2];
+
+        for (int i = 0; i < tp.length; i++) {
+            System.out.println(i);
+        }
     }
 }

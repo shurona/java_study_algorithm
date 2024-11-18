@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
+/*
+ * 문제 주소
+ * https://school.programmers.co.kr/learn/courses/30/lessons/92334?language=java
+ */
 public class ReportUser {
 
     Map<String, HashSet<String>> reportInfo = new HashMap<>();

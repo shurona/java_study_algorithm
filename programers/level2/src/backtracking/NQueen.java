@@ -1,8 +1,7 @@
 package backtracking;
 
-import utils.AlgoStudy;
-
 import java.util.Arrays;
+import utils.AlgoStudy;
 
 /**
  * DFS로 접근 했으나 시간 초과로 백트랙킹을 학습
@@ -20,9 +19,13 @@ public class NQueen implements AlgoStudy {
     public boolean checkValid(int loc) {
         boolean isContinue = true;
         for (int i = 0; i < loc; i++) {
-            if (this.dp[loc] == this.dp[i]) isContinue = false;
+            if (this.dp[loc] == this.dp[i]) {
+                isContinue = false;
+            }
             // 기울기 비교인데
-            if (Math.abs(loc - i) == Math.abs(this.dp[loc] - this.dp[i])) isContinue = false;
+            if (Math.abs(loc - i) == Math.abs(this.dp[loc] - this.dp[i])) {
+                isContinue = false;
+            }
         }
         return isContinue;
     }

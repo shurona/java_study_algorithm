@@ -3,8 +3,10 @@ package backtracking;
 import java.util.Arrays;
 import utils.AlgoStudy;
 
-/**
+/*
  * DFS로 접근 했으나 시간 초과로 백트랙킹을 학습
+ * 문제 링크
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12952
  */
 public class NQueen implements AlgoStudy {
 

@@ -29,7 +29,6 @@ public class EfficientBudget implements BaekAlgoStudy {
             int currentMaxBudget = -1;
             for (int requestBudget : requestBudgetList) {
                 //순차적으로 돌면서 비교를 한다.
-                //순차적으로 돌면서 비교를 한다.
                 if (requestBudget > middleBudget) {
                     sum += middleBudget;
                     currentMaxBudget = Math.max(middleBudget, currentMaxBudget);

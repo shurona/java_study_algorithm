@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크 추가
+    https://www.acmicpc.net/problem/2512
+ */
 public class EfficientBudget implements BaekAlgoStudy {
 
     public void solution() throws IOException {

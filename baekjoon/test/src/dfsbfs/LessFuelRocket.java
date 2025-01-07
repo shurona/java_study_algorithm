@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크
+    https://www.acmicpc.net/problem/17484
+ */
 public class LessFuelRocket implements BaekAlgoStudy {
 
     static int maxStep;

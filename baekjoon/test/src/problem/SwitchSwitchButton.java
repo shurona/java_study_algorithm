@@ -12,6 +12,10 @@ import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크
+    https://www.acmicpc.net/problem/1244
+ */
 public class SwitchSwitchButton implements BaekAlgoStudy {
 
     // 남학생이면 해당 배수의 스위치를 반대로 한다.

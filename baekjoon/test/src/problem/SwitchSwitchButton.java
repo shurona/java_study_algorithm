@@ -33,7 +33,7 @@ public class SwitchSwitchButton implements BaekAlgoStudy {
     public static void girlSwitch(int[] arr, int input) {
         int loc = input;
         // 범위 벗어나면 패스
-        if (loc < 0 || loc >= arr.length) {
+        if (loc < 1 || loc >= arr.length) {
             return;
         }
 
@@ -43,7 +43,7 @@ public class SwitchSwitchButton implements BaekAlgoStudy {
         for (int i = 1; i < arr.length; i++) {
 
             // 하나라도 범위를 벗어나면 멈춘다.
-            if (loc + i >= arr.length || loc - i < 0) {
+            if (loc + i >= arr.length || loc - i < 1) {
                 break;
             }
 

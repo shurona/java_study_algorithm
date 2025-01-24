@@ -8,6 +8,10 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크
+    https://www.acmicpc.net/problem/2075
+ */
 public class NMaxNumber implements BaekAlgoStudy {
 
     public void solution() throws IOException {

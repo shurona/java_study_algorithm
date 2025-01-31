@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.HashSet;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크
+    http://acmicpc.net/problem/2531
+ */
 public class SuShiCoupon implements BaekAlgoStudy {
 
     public void solution() throws IOException {

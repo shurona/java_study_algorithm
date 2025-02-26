@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import utils.BaekAlgoStudy;
 
+/*
+    문제 링크
+    https://www.acmicpc.net/problem/7682
+ */
 public class TikTakTok implements BaekAlgoStudy {
 
     static int findCrossCheck(String[][] arr, String gizun) {

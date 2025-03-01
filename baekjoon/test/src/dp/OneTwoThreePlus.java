@@ -9,7 +9,7 @@ import utils.BaekAlgoStudy;
     문제 링크
     https://www.acmicpc.net/problem/9095
  */
-public class OneToThreePlus implements BaekAlgoStudy {
+public class OneTwoThreePlus implements BaekAlgoStudy {
 
     public void solution() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

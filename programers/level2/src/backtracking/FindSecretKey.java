@@ -8,8 +8,11 @@ import utils.AlgoStudy;
     문제 링크
     https://school.programmers.co.kr/learn/courses/30/lessons/388352
 
+    문제 풀이
+    처음에 모든 경우의 수를 접근한다고 생각을 못하고 어떻게 경우의 수를 뽑아내야 할지 파악을 못하여 헤매는데 시간을 많이 보냈다.
+    배열의 크기가 5로 고정인 것을 확인하고 모든 경우의 수로 접근해서 back tracking으로 문제를 해결하였다.
 
-
+    ### 제대로 문제의 조건을 살펴보자.
  */
 public class FindSecretKey implements AlgoStudy {
 
